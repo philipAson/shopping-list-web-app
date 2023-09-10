@@ -1,0 +1,44 @@
+div {
+    
+    font-family: monospace;
+
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+    
+}
+
+#checkbox {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+}
+
+header {
+    font-size: x-large;
+}
+
+.shopping_list {
+
+    background-color: papayawhip;
+    display: inline-block
+}
+
+.list_item {
+
+    background-color: antiquewhite;
+}
+
+button {
+
+    font-family: monospace;
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+    padding: 5px;
+
+    border-radius: 10px;
+
+}
