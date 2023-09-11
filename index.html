@@ -8,26 +8,36 @@
 </head>
 <body>
 
-    <div class="shopping_list">
-        
-        <header>Shopping List</header>
+    <section id="shopping_list">
+        <div class="list">
+            
+            <header>Shopping List</header>
 
-        <div class="list_item">1 <span id="checkbox"></span></div>
-        <div class="list_item">1 <span id="checkbox"></span></div>
-        <div class="list_item">1 <span id="checkbox"></span></div>
-        <div class="list_item">1 <span id="checkbox"></span></div>
-        <div class="list_item">1 <span id="checkbox"></span></div>
+            <span id="item_container">
+                <div class="list_item">Gurka <span class="checkbox"></span></div>
+                <div class="list_item">Vattenmelon <span class="checkbox"></span></div>
+                <div class="list_item">Kaffe <span class="checkbox"></span></div>
+                <div class="list_item">Potatis <span class="checkbox"></span></div>
+                <div class="list_item">Morötter <span class="checkbox"></span></div>
+    
+            </span>
+            
+            <button id="clear_marked_button">Clear marked</button>
+            <button id="clear_all_button">Clear all</button>
 
-        <button>Clear marked</button>
-        <button>Clear all</button>
+        </div>
 
-    </div>
+        <div class="create_list_item">
 
-    <div class="create_list_item">
+            <header>Add To List</header>
+            <input id="addToListField" type="text" placeholder="Type here">
+            <button id="add_to_list_button">Add to list</button>
 
-        <header>Add To List</header>
+        </div>
 
-    </div>
+    </section>
+
+    
     
     <script src="index.js"></script>
 </body>

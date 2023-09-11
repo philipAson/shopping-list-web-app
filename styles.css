@@ -1,3 +1,12 @@
+#shopping_list {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    padding: 20px;
+
+    background-color: rgb(176, 219, 219);
+}
+
 div {
     
     font-family: monospace;
@@ -8,7 +17,7 @@ div {
     
 }
 
-#checkbox {
+.checkbox {
     display: inline-block;
     height: 20px;
     width: 20px;
@@ -19,7 +28,7 @@ header {
     font-size: x-large;
 }
 
-.shopping_list {
+.list, .create_list_item{
 
     background-color: papayawhip;
     display: inline-block
@@ -27,6 +36,10 @@ header {
 
 .list_item {
 
+    display: flex;
+    text-align: start;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: antiquewhite;
 }
 
@@ -41,4 +54,12 @@ button {
 
     border-radius: 10px;
 
+}
+
+input {
+
+    font-family: monospace;
+    background-color: antiquewhite;
+    padding: 5px; 
+    margin: 3px;
 }
